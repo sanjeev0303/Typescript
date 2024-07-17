@@ -1,0 +1,1 @@
+to run we run command after typescirpt configuration setup is :- ( tsc -w )
