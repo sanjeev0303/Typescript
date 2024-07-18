@@ -35,13 +35,13 @@ form.onsubmit = (e: SubmitEvent) => {
 
 //********************************************************************************************
 
-interface Person {
+interface Person1 {
   // [key: string] : string; // dynamic key
   name: string;
   email: string;
 }
 
-const obj: Person = {
+const obj: Person1 = {
   name: "sanju",
   email: "sanju@gmail.com",
 };
@@ -57,7 +57,7 @@ const getEmail = (): string => {
   return obj["email"];
 };
 
-const getData = (key: keyof Person): string => {
+const getData = (key: keyof Person1): string => {
   return obj[key];
 };
 
